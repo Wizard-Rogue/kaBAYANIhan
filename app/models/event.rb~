@@ -1,6 +1,5 @@
 class Event < ActiveRecord::Base
   attr_accessible :details, :end, :img, :start, :title, :venue, :latitude, :longitude
   gecoded_by :venue
-  process_geocoding => false
-  after_validation :gecode
+  after_validation :gecode, :if => :venue_changed?
 end

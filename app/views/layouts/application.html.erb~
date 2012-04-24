@@ -12,7 +12,7 @@
   Welcome <%= current_user.name %>!
   <%= link_to "Sign Out", signout_path %>
 <% else %>
-<h3>Sign-up/Log-in through these sites:<br/></h3>
+Sign-up/Log-in through these sites:<br/>
 <a href="/auth/twitter" class="auth_provider">
   <%= image_tag "twitter_64.png", :size => "32x32", :alt => "Twitter" %>
 Twitter

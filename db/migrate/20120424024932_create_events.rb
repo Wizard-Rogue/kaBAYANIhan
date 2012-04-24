@@ -5,10 +5,10 @@ class CreateEvents < ActiveRecord::Migration
       t.string :venue
       t.datetime :start
       t.datetime :end
-      t.string :details
-      t.string :img
-      t.integer :orgid
-      t.string :type
+      t.text :details
+      t.string :image
+      t.integer :organization_id
+      t.string :event_type
       t.float :latitude
       t.float :longitude
 

@@ -9,6 +9,8 @@ class CreateEvents < ActiveRecord::Migration
       t.string :img
       t.integer :orgid
       t.string :type
+      t.float :latitude
+      t.float :longitude
 
       t.timestamps
     end

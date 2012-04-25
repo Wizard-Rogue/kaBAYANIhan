@@ -7066,3 +7066,68 @@ Served asset /twitter_64.png - 304 Not Modified (2ms)
 
 Started GET "/assets/facebook_64.png" for 127.0.0.1 at 2012-04-25 10:48:25 +0800
 Served asset /facebook_64.png - 304 Not Modified (2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2012-04-25 11:26:47 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT "events".* FROM "events" [0m
+  Rendered events/index.html.erb within layouts/application (6.2ms)
+Compiled jquery.js  (1ms)  (pid 10462)
+Compiled jquery_ujs.js  (0ms)  (pid 10462)
+Compiled application.js  (16ms)  (pid 10462)
+Completed 200 OK in 192ms (Views: 123.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/evemts.css?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /evemts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /events.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/evemts.js?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /evemts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /events.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /twitter_64.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/facebook_64.png" for 127.0.0.1 at 2012-04-25 11:26:53 +0800
+Served asset /facebook_64.png - 304 Not Modified (4ms)

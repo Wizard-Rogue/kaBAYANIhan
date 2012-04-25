@@ -1,0 +1,37 @@
+<h1>Listing evemts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Venue</th>
+    <th>Start</th>
+    <th>End</th>
+    <th>Details</th>
+    <th>Img</th>
+    <th>Orgid</th>
+    <th>Type</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @evemts.each do |evemt| %>
+  <tr>
+    <td><%= evemt.title %></td>
+    <td><%= evemt.venue %></td>
+    <td><%= evemt.start %></td>
+    <td><%= evemt.end %></td>
+    <td><%= evemt.details %></td>
+    <td><%= evemt.img %></td>
+    <td><%= evemt.orgid %></td>
+    <td><%= evemt.type %></td>
+    <td><%= link_to 'Show', evemt %></td>
+    <td><%= link_to 'Edit', edit_evemt_path(evemt) %></td>
+    <td><%= link_to 'Destroy', evemt, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Evemt', new_evemt_path %>

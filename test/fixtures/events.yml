@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  venue: MyString
+  start: 2012-04-24 10:49:32
+  end: 2012-04-24 10:49:32
+  details: MyString
+  img: MyString
+  orgid: 1
+  type: 
+
+two:
+  title: MyString
+  venue: MyString
+  start: 2012-04-24 10:49:32
+  end: 2012-04-24 10:49:32
+  details: MyString
+  img: MyString
+  orgid: 1
+  type: 

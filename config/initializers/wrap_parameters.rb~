@@ -12,6 +12,3 @@ end
 ActiveSupport.on_load(:active_record) do
   self.include_root_in_json = false
 end
-require 'geocoder'
-require "geocoder/railtie"
-Geocoder::Railtie.insert

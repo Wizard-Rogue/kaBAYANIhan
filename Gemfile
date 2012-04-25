@@ -19,7 +19,9 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'devise'
+gem 'nifty-generators'
+gem 'geocoder'
 gem 'faraday'
 gem 'omniauth'
 gem 'omniauth-facebook'
